@@ -36,7 +36,7 @@ function animationBtn(color) {
 }
 
 function playSound(color) {
-  var sound = new Audio("/sounds/" + color + ".mp3");
+  var sound = new Audio("./sounds/" + color + ".mp3");
   sound.play();
 }
 
